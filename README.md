@@ -4,7 +4,7 @@
 <div align="center">
 
 [![project page](https://img.shields.io/badge/Project-Page-2ea44f)](https://lixsp11.github.io/sekai-project/)&nbsp;
-[![arXiv](https://img.shields.io/badge/arXiv%20paper-tbd-b31b1b.svg)](https://arxiv.org/)&nbsp;
+[![arXiv](https://img.shields.io/badge/arXiv%20paper-2506.15675-b31b1b.svg)](https://arxiv.org/abs/2506.15675)&nbsp;
 [![demo](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Lixsp11/Sekai-Project)&nbsp;
 [![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://www.youtube.com/watch?v=5UQ0zAIZkSY)&nbsp;
 
@@ -12,7 +12,7 @@
 
 This repo contains the dataset download and processing code used in
 
-> [**Sekai: A Video Dataset towards World Exploration**](https://arxiv.org/)
+> [**Sekai: A Video Dataset towards World Exploration**](https://arxiv.org/abs/2506.15675)
 >
 > Zhen Li, Chuanhao Li, Xiaofeng Mao, Shaoheng Lin, Ming Li, Shitian Zhao, Zhaopan Xu,
 > Xinyue Li, Yukang Feng, Jianwen Sun, Zizhen Li, Fanrui Zhang, Jiaxin Ai, Zhixiang Wang,
@@ -54,5 +54,10 @@ See [license](https://github.com/Lixsp11/sekai-codebase/blob/main/LICENSE).
 If you find this project helpful, please consider citing:
 
 ```bibtex
-tbd
+@article{li2025sekai,
+      title={Sekai: A Video Dataset towards World Exploration}, 
+      author={Zhen Li and Chuanhao Li and Xiaofeng Mao and Shaoheng Lin and Ming Li and Shitian Zhao and Zhaopan Xu and Xinyue Li and Yukang Feng and Jianwen Sun and Zizhen Li and Fanrui Zhang and Jiaxin Ai and Zhixiang Wang and Yuwei Wu and Tong He and Jiangmiao Pang and Yu Qiao and Yunde Jia and Kaipeng Zhang},
+      journal={arXiv preprint arXiv:2506.15675},
+      year={2025}
+}
 ```
