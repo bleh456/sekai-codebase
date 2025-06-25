@@ -1,8 +1,8 @@
-## Clip Extracting
+# Clip Extracting
 
 This section outlines the steps to extract video clips from the raw videos for the **Sekai-Real** dataset.
 
-### 🛠️ Prerequisites
+## 🛠️ Prerequisites
 
 - NVIDIA GPU with NVENC support, see [Video Encode and Decode GPU Support Matrix](https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new).
 
@@ -20,9 +20,11 @@ This section outlines the steps to extract video clips from the raw videos for t
   pip install -r requirements.txt
   ```
 
-### 📝 Steps
+## 📝 Steps
 
 Let's take sekai-real-walking-hq as an example.
+
+- Finish the [dataset downloading](https://github.com/Lixsp11/sekai-codebase/tree/main/dataset_downloading) step.
 
 - Extract video clip metadata (start and end frame index of each video clip) to `sekai-real-walking-hq` dir.
 
@@ -58,7 +60,7 @@ Let's take sekai-real-walking-hq as an example.
 
   Add `--ignore_audio` if you're fine with mute videos.
 
-### ⚠️ Known Issues
+## ⚠️ Known Issues
 
 - You might encounter some warning in step 3 (`3_nvtranscoding.py`):
 
