@@ -83,7 +83,7 @@ class VideoBatchDecoder:
             if len(cvcuda_YUVtensor) == self.batch_size:
                 yield self.process(cvcuda_YUVtensor)
                 cvcuda_YUVtensor.clear()
-        if len(cvcuda_YUVtensor) > 0:  # The last batch
+        if len(cvcuda_YUVtensor) > 0:
             yield self.process(cvcuda_YUVtensor)
             cvcuda_YUVtensor.clear()
 
@@ -132,11 +132,7 @@ class VideoMemoryEncoder:
         )
         cvcuda_YUVtensor = cvcuda.reformat(cvcuda_YUVtensor, "NCHW")
 
-        self.encoder(
-            torch.as_tensor(  # FUCKING NAUSEOUS
-                cvcuda_YUVtensor.cuda(), device=f"cuda:{self.device_id}"
-            ).squeeze(0, 1)
-        )
+        self.encoder(torch.as_tensor(cvcuda_YUVtensor.cuda(), device=f"cuda:{self.device_id}").squeeze(0, 1))
 
     def finish(self):
         self.encoder.finish()

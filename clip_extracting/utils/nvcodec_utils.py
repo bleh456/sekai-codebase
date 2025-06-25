@@ -16,8 +16,6 @@ class NVVCVideoDecoder:
         self.cuda_ctx = cuda_ctx
         self.enc_file = enc_file
         self.cuda_stream = cuda_stream
-        # Demuxer is instantiated only to collect required information about
-        # certain video file properties.
         self.nvDemux = nvvc.PyNvDemuxer(self.enc_file)
         self.nvDec = nvvc.CreateDecoder(
             gpuid=0,
@@ -27,10 +25,10 @@ class NVVCVideoDecoder:
             usedevicememory=1,
         )
 
-        self.width = self.nvDemux.Width()  # 1280
-        self.height = self.nvDemux.Height()  # 720
-        self.fps = self.nvDemux.FrameRate()  # 24
-        self.pixelFormat = self.nvDec.GetPixelFormat()  # Pixel_Format.NV12
+        self.width = self.nvDemux.Width()
+        self.height = self.nvDemux.Height()
+        self.fps = self.nvDemux.FrameRate()
+        self.pixelFormat = self.nvDec.GetPixelFormat()
 
         self.frame_idx = 0
 
@@ -87,7 +85,7 @@ class NVVCVideoEncoder:
         self.frame_idx = 0
 
     def __call__(self, frame):
-        bitstream = self.nvEnc.Encode(frame)  # List[int]
+        bitstream = self.nvEnc.Encode(frame)
         self.frame_idx += 1
 
         bitstream = bytearray(bitstream)
