@@ -9,7 +9,7 @@ This section describes the steps for downloading the original videos of the **Se
 
 ## 📝 Steps
 
-Let's take the `sekai-real-walking-hq` split as an example, see all splits [here]((https://github.com/Lixsp11/sekai-codebase?tab=readme-ov-file#-quick-start)).
+Let's take the `sekai-real-walking-hq` split as an example, see all splits [here](https://github.com/Lixsp11/sekai-codebase?tab=readme-ov-file#-quick-start).
 
 - Read the [Quick Start](https://github.com/Lixsp11/sekai-codebase?tab=readme-ov-file#-quick-start), and download the annotation file `sekai-real-walking-hq.csv`.
 
