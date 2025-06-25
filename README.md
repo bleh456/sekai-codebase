@@ -3,6 +3,8 @@
 
 <div align="center">
 
+
+
 [![project page](https://img.shields.io/badge/Project-Page-2ea44f)](https://lixsp11.github.io/sekai-project/)&nbsp;
 [![arXiv](https://img.shields.io/badge/arXiv%20paper-2506.15675-b31b1b.svg)](https://arxiv.org/abs/2506.15675)&nbsp;
 [![demo](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Lixsp11/Sekai-Project)&nbsp;
@@ -22,28 +24,52 @@ This repo contains the dataset download and processing code used in
 
 ## 🔥 Update
 
-- [2024.06.19] We have released our paper — discussions and feedback are warmly welcome!
+- [2025.06.25] Video download and clip extraction tools for Sekai-Real are now available!
+- [2025.06.19] We have released our paper — discussions and feedback are warmly welcome!
 
 ## 🧠 Introduction
 
-![pipeline](https://cdn.jsdelivr.net/gh/Lixsp11/sekai-project/static/images/figure2-compressed.png)
+![pipeline](https://cdn.jsdelivr.net/gh/Lixsp11/sekai-project@0.3.0/static/images/figure2-compressed.png)
 
+**TL;DR** We present Sekai (せかい, “world” in Japanese), a high-quality egocentric video dataset for immersive world exploration and generation. Sekai includes over 5000 hours of YouTube videos and game footage with rich annotations. It features:  
 
-**TL;DR** We present Sekai (せかい, “world” in Japanese), a high-quality egocentric video dataset for immersive world exploration and generation. Sekai includes over 5000 hours of YouTube videos and game footage with rich annotations. It features:<br>
-    
-- 📹 Diverse, high-resolution videos (720p)<br>
-- 🌍 Coverage of 100+ countries and 750+ cities<br>
-- 🚶‍♂️ First-person and 🛸 drone perspectives<br>
-- 🕒 Long sequences (≥ 60s) for real-world continuity<br>
-- 🏷️ Detailed annotations: location, scene, weather, crowd, captions, and camera trajectories<br>
-    
+- 📹 Diverse, high-resolution videos (720p)
+- 🌍 Coverage of 100+ countries and 750+ cities
+- 🚶‍♂️ First-person and 🛸 drone perspectives
+- 🕒 Long sequences (≥ 60s) for real-world continuity
+- 🏷️ Detailed annotations: location, scene, weather, crowd, captions, and camera trajectories
+
 Sekai supports tasks like video understanding, navigation, and video-audio co-generation.
 
-## 📦 Codebase
+## 🚀 Quick Start
 
-In this repo, we release:
+The Sekai dataset includes **Sekai-Real** from YouTube videos and **Sekai-Game** from video game videos. The camera trajectories for both parts are represented using an intrinsic matrix and per-frame extrinsic matrices, all of which are normalized.
 
-- [ ] Tools for Sekai-Real video download and clip extraction (**coming late June**).
+### Sekai-Real
+
+We provide a comprehensive toolchain for [downloading original videos](#) and [extracting video clips](#).
+
+| Split                  | Annotation                                                   | Camera Trajectories                                          | \# Source Videos | \# Samples | Video Duration | Storage Space |
+| ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------- | ---------- | -------------- | ------------- |
+| Sekai-Real-Walking     | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-real-walking.csv) | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-real-walking-hq.zip) | 6552             | 299173     | 7986h          | ~10TB         |
+| Sekai-Real-Walking-HQ* | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-real-walking-hq.csv) | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-real-walking-hq.zip) | 3879             | 18208      | 304h           | ~600GB        |
+
+\* denotes the best-of-the-best videos sampled in consideration of the computational resources for training.
+
+### Sekai-Game
+
+The videos and corresponding camera trajectory files of **Sekai-Game** is hosted on Hugging Face. Click the link to view and download.
+
+| Split              | Annotation                                                   | Videos & Camera Trajectories                                 |
+| ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Sekai-Game-Walking | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-game-walking.csv) | [part1](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-game-walking.zip.part_aa) and [part2](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-game-walking.zip.part_ab) |
+| Sekai-Game-Drone   | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-game-drone.csv) | [here](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-game-drone.zip) |
+
+## 📦 Checklist
+
+- [x] Tools for Sekai-Real video download and clip extraction.
+- [ ] Modified MegaSam used in Sekai.
+
 
 ## 📄 License
 
