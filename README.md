@@ -47,7 +47,7 @@ The Sekai dataset includes **Sekai-Real** from YouTube videos and **Sekai-Game**
 
 ### Sekai-Real
 
-We provide a comprehensive toolchain for [downloading original videos](#) and [extracting video clips](#).
+We provide a comprehensive toolchain for [downloading original videos](https://github.com/Lixsp11/sekai-codebase/tree/main/dataset_downloading) and [extracting video clips](https://github.com/Lixsp11/sekai-codebase/tree/main/clip_extracting).
 
 | Split                  | Annotation                                                   | Camera Trajectories                                          | \# Source Videos | \# Samples | Video Duration | Storage Space |
 | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------- | ---------- | -------------- | ------------- |
