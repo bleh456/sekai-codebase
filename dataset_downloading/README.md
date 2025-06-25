@@ -1,17 +1,17 @@
-## Video Downloading
+# Video Downloading
 
 This section describes the steps for downloading the original videos of the **Sekai-Real** dataset.
 
-### 🛠️ Prerequisites
+## 🛠️ Prerequisites
 
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#installation) video downloader
 - python3
 
-### 📝 Steps
+## 📝 Steps
 
 Let's take the `sekai-real-walking-hq` split as an example, see all splits [here]((https://github.com/Lixsp11/sekai-codebase?tab=readme-ov-file#-quick-start)).
 
-- Download annotation file `sekai-real-walking-hq.csv` from [here](https://github.com/Lixsp11/sekai-codebase?tab=readme-ov-file#-quick-start).
+- Read the [Quick Start](https://github.com/Lixsp11/sekai-codebase?tab=readme-ov-file#-quick-start), and download the annotation file `sekai-real-walking-hq.csv`.
 
 - Extract video URLs from the annotation file and save them to `sekai-real-walking-hq_urls.txt`.
 
@@ -27,7 +27,7 @@ Let's take the `sekai-real-walking-hq` split as an example, see all splits [here
 
   This command will download each video in 1080p at 60fps with the best available audio quality.
 
-### ⚠️ Known Issues
+## ⚠️ Known Issues
 
 | **Error Message**                                            | **Solution**                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
