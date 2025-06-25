@@ -51,7 +51,7 @@ We provide a comprehensive toolchain for [downloading original videos](https://g
 
 | Split                  | Annotation                                                   | Camera Trajectories                                          | \# Source Videos | \# Samples | Video Duration | Storage Space |
 | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------- | ---------- | -------------- | ------------- |
-| Sekai-Real-Walking     | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-real-walking.csv) | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-real-walking-hq.zip) | 6552             | 299173     | 7986h          | ~10TB         |
+| Sekai-Real-Walking     | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-real-walking.csv) | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-real-walking-hq.zip) | 6552             | 299173     | 4986h          | ~10TB         |
 | Sekai-Real-Walking-HQ* | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-real-walking-hq.csv) | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-real-walking-hq.zip) | 3879             | 18208      | 304h           | ~600GB        |
 
 \* denotes the best-of-the-best videos sampled in consideration of the computational resources for training.
