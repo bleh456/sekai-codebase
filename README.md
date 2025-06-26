@@ -49,12 +49,15 @@ The Sekai dataset includes **Sekai-Real** from YouTube videos and **Sekai-Game**
 
 We provide a comprehensive toolchain for [downloading original videos](https://github.com/Lixsp11/sekai-codebase/tree/main/dataset_downloading) and [extracting video clips](https://github.com/Lixsp11/sekai-codebase/tree/main/clip_extracting).
 
-| Split                  | Annotation                                                   | Camera Trajectories                                          | \# Source Videos | \# Samples | Video Duration | Storage Space |
-| ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------- | ---------- | -------------- | ------------- |
-| Sekai-Real-Walking     | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-real-walking.csv) | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-real-walking-hq.zip) | 6552             | 299173     | 4986h          | ~10TB         |
-| Sekai-Real-Walking-HQ* | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-real-walking-hq.csv) | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-real-walking-hq.zip) | 3879             | 18208      | 304h           | ~600GB        |
+| Split                    | Annotation                                                   | Camera Trajectories                                          | \# Source Videos | \# Samples | Video Duration | Storage Space |
+| ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------- | ---------- | -------------- | ------------- |
+| Sekai-Real-Walking       | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-real-walking.csv) | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-real-walking-hq.zip)<sup>+</sup> | 6552             | 299173     | 4986h          | ~10TB         |
+| Sekai-Real-Walking-HQ<sup>*</sup> | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-real-walking-hq.csv) | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-real-walking-hq.zip) | 3879             | 18208      | 304h           | ~600GB        |
+| Sekai-Real-Drone         | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-real-drone.csv) | Uploading                                                    | 69               | 23912      | 65h            | ~140GB        |
 
 \* denotes the best-of-the-best videos sampled in consideration of the computational resources for training.
+
+\+ denotes that a subset of videos was annotated with camera trajectories. Refer to the [paper](https://arxiv.org/abs/2506.15675) for more details.
 
 ### Sekai-Game
 
