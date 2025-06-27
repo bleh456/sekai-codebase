@@ -53,7 +53,7 @@ We provide a comprehensive toolchain for [downloading original videos](https://g
 | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------- | ---------- | -------------- | ------------- |
 | Sekai-Real-Walking       | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-real-walking.csv) | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-real-walking-hq.zip)<sup>+</sup> | 6552             | 299173     | 4986h          | ~10TB         |
 | Sekai-Real-Walking-HQ<sup>*</sup> | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-real-walking-hq.csv) | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-real-walking-hq.zip) | 3879             | 18208      | 304h           | ~600GB        |
-| Sekai-Real-Drone         | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-real-drone.csv) | Uploading                                                    | 69               | 23912      | 65h            | ~140GB        |
+| Sekai-Real-Drone         | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-real-drone.csv) | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-real-drone.zip)                                                    | 69               | 23912      | 65h            | ~140GB        |
 
 \* denotes the best-of-the-best videos sampled in consideration of the computational resources for training.
 
