@@ -25,7 +25,7 @@ This repo contains the dataset download and processing code used in
 
 ## 🔥 Update
 
-- [2025.07.02] We're thrilled by the community's enthusiasm — [Additional Assistance Service](https://github.com/Lixsp11/sekai-codebase/edit/main/README.md#-additional-assistance-service) is now available!
+- [2025.07.02] We're thrilled by the community's enthusiasm — [Additional Assistance Service](https://github.com/Lixsp11/sekai-codebase/tree/main?tab=readme-ov-file#-additional-assistance-service) is now available!
 - [2025.06.25] Video download and clip extraction tools for Sekai-Real are now available!
 - [2025.06.19] We have released our paper — discussions and feedback are warmly welcome!
 
