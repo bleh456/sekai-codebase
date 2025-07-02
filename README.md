@@ -5,6 +5,7 @@
 
 
 
+
 [![project page](https://img.shields.io/badge/Project-Page-2ea44f)](https://lixsp11.github.io/sekai-project/)&nbsp;
 [![arXiv](https://img.shields.io/badge/arXiv%20paper-2506.15675-b31b1b.svg)](https://arxiv.org/abs/2506.15675)&nbsp;
 [![demo](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Lixsp11/Sekai-Project)&nbsp;
@@ -24,6 +25,7 @@ This repo contains the dataset download and processing code used in
 
 ## 🔥 Update
 
+- [2025.07.02] We're thrilled by the community's enthusiasm — [Additional Assistance Service](https://github.com/Lixsp11/sekai-codebase/edit/main/README.md#-additional-assistance-service) is now available!
 - [2025.06.25] Video download and clip extraction tools for Sekai-Real are now available!
 - [2025.06.19] We have released our paper — discussions and feedback are warmly welcome!
 
@@ -49,11 +51,11 @@ The Sekai dataset includes **Sekai-Real** from YouTube videos and **Sekai-Game**
 
 We provide a comprehensive toolchain for [downloading original videos](https://github.com/Lixsp11/sekai-codebase/tree/main/dataset_downloading) and [extracting video clips](https://github.com/Lixsp11/sekai-codebase/tree/main/clip_extracting).
 
-| Split                    | Annotation                                                   | Camera Trajectories                                          | \# Source Videos | \# Samples | Video Duration | Storage Space |
-| ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------- | ---------- | -------------- | ------------- |
-| Sekai-Real-Walking       | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-real-walking.csv) | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-real-walking-hq.zip)<sup>+</sup> | 6552             | 299173     | 4986h          | ~10TB         |
+| Split                             | Annotation                                                   | Camera Trajectories                                          | \# Source Videos | \# Samples | Video Duration | Storage Space |
+| --------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------- | ---------- | -------------- | ------------- |
+| Sekai-Real-Walking                | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-real-walking.csv) | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-real-walking-hq.zip)<sup>+</sup> | 6552             | 299173     | 4986h          | ~10TB         |
 | Sekai-Real-Walking-HQ<sup>*</sup> | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-real-walking-hq.csv) | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-real-walking-hq.zip) | 3879             | 18208      | 304h           | ~600GB        |
-| Sekai-Real-Drone         | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-real-drone.csv) | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-real-drone.zip)                                                    | 69               | 23912      | 65h            | ~140GB        |
+| Sekai-Real-Drone                  | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-real-drone.csv) | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-real-drone.zip) | 69               | 23912      | 65h            | ~140GB        |
 
 \* denotes the best-of-the-best videos sampled in consideration of the computational resources for training.
 
@@ -77,6 +79,10 @@ The videos and corresponding camera trajectory files of **Sekai-Game** is hosted
 ## 📄 License
 
 See [license](https://github.com/Lixsp11/sekai-codebase/blob/main/LICENSE).
+
+## 🛎 Additional Assistance Service
+
+If you confirm that you are experiencing insurmountable difficulties in obtaining Sekai dataset, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSd5GiQLL1vZQSo0fMDDINd2i_N0rga0a5008Td3lMw9ZimcUQ/viewform?usp=dialog). We’ll review your request soon and send you the details.
 
 ## 📖 Citation
 
