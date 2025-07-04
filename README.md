@@ -47,6 +47,10 @@ Sekai supports tasks like video understanding, navigation, and video-audio co-ge
 
 The Sekai dataset includes **Sekai-Real** from YouTube videos and **Sekai-Game** from video game videos. The camera trajectories for both parts are represented using an intrinsic matrix and per-frame extrinsic matrices, all of which are normalized.
 
+### Dataset Access Assistance
+
+If you confirm that you are experiencing insurmountable difficulties in obtaining Sekai(-Real) dataset through the following steps, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSd5GiQLL1vZQSo0fMDDINd2i_N0rga0a5008Td3lMw9ZimcUQ/viewform?usp=dialog). We’ll review your request shortly and send you the details.
+
 ### Sekai-Real
 
 We provide a comprehensive toolchain for [downloading original videos](https://github.com/Lixsp11/sekai-codebase/tree/main/dataset_downloading) and [extracting video clips](https://github.com/Lixsp11/sekai-codebase/tree/main/clip_extracting).
@@ -79,10 +83,6 @@ The videos and corresponding camera trajectory files of **Sekai-Game** is hosted
 ## 📄 License
 
 See [license](https://github.com/Lixsp11/sekai-codebase/blob/main/LICENSE).
-
-## 🛎 Dataset Access Assistance
-
-If you confirm that you are experiencing insurmountable difficulties in obtaining Sekai dataset, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSd5GiQLL1vZQSo0fMDDINd2i_N0rga0a5008Td3lMw9ZimcUQ/viewform?usp=dialog). We’ll review your request soon and send you the details.
 
 ## 📖 Citation
 
