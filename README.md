@@ -25,7 +25,7 @@ This repo contains the dataset download and processing code used in
 
 ## 🔥 Update
 
-- [2025.07.02] We're thrilled by the community's enthusiasm — [Additional Assistance Service](https://github.com/Lixsp11/sekai-codebase/tree/main?tab=readme-ov-file#-additional-assistance-service) is now available!
+- [2025.07.02] We're thrilled by the community's enthusiasm — [Dataset Access Assistance](https://github.com/Lixsp11/sekai-codebase/tree/main?tab=readme-ov-file#-dataset-access-assistance) is now available!
 - [2025.06.25] Video download and clip extraction tools for Sekai-Real are now available!
 - [2025.06.19] We have released our paper — discussions and feedback are warmly welcome!
 
@@ -80,7 +80,7 @@ The videos and corresponding camera trajectory files of **Sekai-Game** is hosted
 
 See [license](https://github.com/Lixsp11/sekai-codebase/blob/main/LICENSE).
 
-## 🛎 Additional Assistance Service
+## 🛎 Dataset Access Assistance
 
 If you confirm that you are experiencing insurmountable difficulties in obtaining Sekai dataset, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSd5GiQLL1vZQSo0fMDDINd2i_N0rga0a5008Td3lMw9ZimcUQ/viewform?usp=dialog). We’ll review your request soon and send you the details.
 
