@@ -13,7 +13,8 @@ def process_one_video(args, vid, clips, ignore_audio=False):
     os.makedirs(os.path.join(args.output_dir, vid), exist_ok=False)
     os.makedirs(os.path.join(args.output_dir, vid, "temp"), exist_ok=False)
 
-    raw_astream_filename = os.path.join(args.input_astream_dir, f"{vid}.flac")
+    if not ignore_audio:
+        raw_astream_filename = os.path.join(args.input_astream_dir, f"{vid}.flac")
 
     vstream_filename = os.path.join(args.input_vstream_dir, vid, f"{vid}_{{:07d}}_{{:07d}}.hevc")
     astream_filename = os.path.join(args.output_dir, vid, "temp", f"{vid}_{{:07d}}_{{:07d}}.m4a")
